@@ -1,8 +1,8 @@
 # TODO
 * Spring Boot Restful API
-* CRUD API
+  * CRUD API
 * PostgreSQL
-* Table
+  * Table
 * Spring Data JPA
 * Docker
 * Unit Test
