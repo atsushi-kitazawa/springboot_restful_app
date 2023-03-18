@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import springboot.restful.app.entiry.UsersEntiry;
+import springboot.restful.app.entiry.UsersEntity;
 import springboot.restful.app.repository.UsersRepository;
 
 @RestController
@@ -21,7 +21,7 @@ public class UsersController {
     }
 
     @RequestMapping(value = "/users", method = RequestMethod.POST)
-    public void addUser(@RequestBody UsersEntiry user) {
+    public void addUser(@RequestBody UsersEntity user) {
         repo.save(user);
     }
 }
